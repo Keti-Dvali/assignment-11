@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Alpha insurance company web-page">
+    <meta name="keywords" content="insurance, health insurance, car insurance, travel insurance">
+    <meta name="author" content="Keti Dvali">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Alpha"/>
+    <meta property="og:description" content="This is insurance company's website, which provides high quality of services"/>
+    <!-- <meta property="og:url" content="https://www.imdb.com/title/tt0117500/"/> -->
+    <meta property="og:image" content="https://scontent.ftbs7-1.fna.fbcdn.net/v/t39.30808-6/277736311_5261580733893179_2766320965958162209_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHfeIbS6wfSCuRMnTaB6PTUykQC8pndf4nKRALymd1_icnQ05Q7B66OPcmvObkFeOIp2i-Z4lgmR2Akh-R1RGz8&_nc_ohc=oTx25FgFj3MAX-3j-YL&_nc_ht=scontent.ftbs7-1.fna&oh=00_AT8piX0IcJoz6PclUnjiJvUDoX15XMrLTkmNDGJpSxakKw&oe=631B754F">
     <link rel="stylesheet" href="static/CSS/style.css">
     <link rel="stylesheet" href="static/CSS/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home Page</title>
 </head>
 <body>
     <header class="background-img">
         <nav class="container">
             <div class="logo">
-                ალფა
+                <a href="index.html">
+                    <img class="logo-header" src="static/images/logo/main-logo.png" alt="logo">
+                </a> 
             </div>
             <div class="nav-links">
                 <ul>
@@ -24,10 +33,10 @@
                         <a href="#">პროდუქტები</a> 
                     </li>
                     <li>   
-                        <a href="#">ბლოგი</a> 
+                        <a href="health-insurance.html">ბლოგი</a> 
                     </li>
                     <li>
-                        <a href="">კონტაქტი</a> 
+                        <a href="contact.html">კონტაქტი</a> 
                     </li>
                 </ul>
             </div>
@@ -49,11 +58,11 @@
         <div class="flex">
             <div class="alfa">
                 <img src="static/images/icons/icons8-person-64.png" alt="person-icon">
-                <h2>ალფა შენთვის</h2>
+                <a href="#for-you-section"><h2>ალფა შენთვის</h2></a>
             </div>
             <div class="alfa">
                 <img src="static/images/icons/icons8-small-business-100.png" alt="icons8-small-business-icon">
-                <h2>ალფა შენი ბიზნესისთვის</h2>
+                <a href="#for-your-business-section"><h2>ალფა შენი ბიზნესისთვის</h2></a>
             </div>
         </div>
         <div class="slogan">
@@ -61,13 +70,327 @@
                 დააზღვიე შენი სიმშვიდე ჩვენთან!
             </h1>
         </div>
-        <div>
-            <img src="" alt="icons8-small-business-icon">
+        <div class="chat-icon">
+            <img src="static/images/icons/Online chat.svg" alt="chat-icon">
         </div>
-
-
     </header>
 
+    <main>
+        <section id="for-you-section">
+            <div class="our-services">
+                <h2>
+                    ჩვენი სერვისები<span>შენთვის</span> 
+                </h2>
+            </div>
+            <div class="we-care">
+                <h4>
+                    ჩვენ ვზრუნავთ თქვენთვის მნიშვნელოვანზე
+                </h4>
+            </div>
+            <div class="section1-flex">
+                <div class="arrow">
+                    <img src="static/images/icons/arrow-left-circle.svg" alt="arrow">
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/heart-beat.png" alt="heart-beat">
+                    <h4>
+                        ჯანმრთელობის დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/car.png" alt="car">
+                    <h4>
+                        ავტომობილის დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/world.png" alt="world">
+                    <h4>
+                        სამოგზაურო დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="arrow">
+                    <img src="static/images/icons/arrow-right-circle.svg" alt="arrow">
+                </div>
+            </div>
+        </section>
+        <section id="for-your-business-section">
+            <div class="our-services">
+                <h2>
+                    ჩვენი სერვისები<span>შენი ბიზნესისთვის</span> 
+                </h2>
+            </div>
+            <div class="we-care">
+                <h4>
+                    ჩვენ ვზრუნავთ თქვენი ბიზნესისთვის მნიშვნელოვანზე
+                </h4>
+            </div>
+            <div class="section1-flex">
+                <div class="arrow">
+                    <img src="static/images/icons/arrow-left-circle.svg" alt="arrow">
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/plant.png" alt="plant">
+                    <h4>
+                        აგრო დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/shipping.png" alt="shipping">
+                    <h4>
+                        ტვირთის დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="insurance">
+                    <div></div>
+                    <div></div>
+                    <img src="static/images/icons/real-estate.png" alt="real-estate">
+                    <h4>
+                        უძრავი ქონების დაზღვევა
+                    </h4>
+                    <button>
+                        დეტალურად
+                    </button>
+                </div>
+                <div class="arrow">
+                    <img src="static/images/icons/arrow-right-circle.svg" alt="arrow">
+                </div>
+            </div>
+        </section>
+        <section class="why-us">
+            <div class="our-services">
+                <h2>
+                    რატომ უნდა აგვირჩიოთ ჩვენ?
+                </h2>
+            </div>
+            <div class="section1-flex">
+                <div class="why-us-div">
+                    <div></div>
+                    <img src="static/images/icons/clock.png" alt="clock">
+                    <h4>სწრაფი სერვისი</h4>
+                </div>
+                <div class="why-us-div">
+                    <div></div>
+                    <img src="static/images/icons/headphones.png" alt="headphones">
+                    <h4>ხელმისაწვდომობა 24/7</h4>
+                </div>
+                <div class="why-us-div">
+                    <div></div>
+                    <img src="static/images/icons/heart.png" alt="heart">
+                    <h4>დაზღვევა მარტივად</h4>
+                </div>
+                <div class="why-us-div">
+                    <div></div>
+                    <img src="static/images/icons/star.png" alt="star">
+                    <h4>საუკეთესო პროვაიდერები</h4>
+                </div>
+            </div> 
+        </section>
+        <section class="our-cutomers">
+            <div class="our-services">
+                <h2>
+                    ჩვენი მომხმარებლები
+                </h2>
+            </div>
+            <div class="share-your-experiences">
+                <h4>
+                    გაუაზიარე სხვას შენი გამოცდილება
+                </h4>
+            </div>
+            <div class="section-four-flex">
+                <div class="customer">
+                    <img class="double-quotes" src="static/images/icons/double-quotes.svg" alt="double-quotes">
+                    <p>
+                        “ჩემთვის ჩემი და ოჯახის ჯანმრთელობა ყველაზე მნიშვნელოვანია, 
+                        ალფა დაზღვევა კი არასდროს მიცრუებს იმედს…”
+                    </p>
+                    <div class="customer-flex">
+                        <div>
+                            <img src="static/images/photos/Mask Group 2.png" alt="person">
+                        </div>
+                        <div class="person">
+                            <h4>მარი ბერიძე</h4>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer">
+                    <img class="double-quotes" src="static/images/icons/double-quotes.svg" alt="double-quotes">
+                    <p>
+                        “ძალიან ხშირად მიწევს მოგზაურობა, ალფათი კი ძალიან 
+                        მარტივად და სწრაფად ვიღებ სამოგზაურო დაზღვევას”
+                    </p>
+                    <div class="customer-flex">
+                        <div>
+                            <img src="static/images/photos/Mask Group 4.png" alt="person">
+                        </div>
+                        <div class="person">
+                            <h4>ბექა გვილავა</h4>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer">
+                    <img class="double-quotes" src="static/images/icons/double-quotes.svg" alt="double-quotes">
+                    <p>
+                        “ჩემი კომპანია საერთაშორისო 
+                        გადაზიდვებზე მუშაობს. ალფასთან ურთიერთობამ…”
+                    </p>
+                    <div class="customer-flex">
+                        <div>
+                            <img src="static/images/photos/Mask Group 3.png" alt="person">
+                        </div>
+                        <div class="person">
+                            <h4>ნინო ფაღავა</h4>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-flex">
+            <div class="first-div">
+                <h4>
+                    გამოიწერე და თვალი ადევნე სიახლეებს!
+                </h4>
+                <form>
+                    <input type="text">
+                    <img class="send-icon" src="static/images/icons/send.svg" alt="send-icon">
+                </form>
+                <div class="icons">
+                    <img src="static/images/icons/facebook.svg" alt="fb-icon">
+                    <img src="static/images/icons/instagram.svg" alt="insta-icon">
+                    <img src="static/images/icons/linkedin.svg" alt="ln-icon">
+                </div>
+                <img class="logo-footer" src="static/images/logo/main-logo.png" alt="logo">
+            </div>
+            <div class="second-div">
+                <ul>
+                    <li>
+                        მენიუ
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            მთავარი
+                        </a>
+                    </li>
+                    <li>
+                        ჩვენ შესახებ
+                    </li>
+                    <li>
+                        ბლოგი 
+                    </li>
+                </ul>
+                <img src="static/images/icons/app-store.svg" alt="app-store">
+            </div>
+            <div class="third-div">
+                <ul>
+                    <li>
+                        <a href="#for-you-section"> თქვენთვის</a>
+                       
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            ჯანმრთელობის
+                        </a>
+                    </li>
+                    <li>
+                        ავტომობილის
+                    </li>
+                    <li>
+                        სამოგზაურო
+                    </li>
+                </ul>
+                <img src="static/images/icons/google-store.svg" alt="google-play">
+            </div>
+            <div class="third-div">
+                <ul>
+                    <li>
+                        <a href="#for-your-business-section">თქვენი ბიზნესისთვის</a>
+                        
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            აგრო დაზღვევა
+                        </a>
+                    </li>
+                    <li>
+                        ტვირთის დაზღვევა
+                    </li>
+                    <li>
+                        უძრავი ქონების დაზღვევა
+                    </li>
+                </ul>
+            </div>
+            <div class="third-div">
+                <ul>
+                    <li>
+                        <a href="contact.html">კონტაქტი </a>             
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            +995 579 78 16 62
+                        </a>
+                    </li>
+                    <li>
+                        თბილისი, ჭავჭავაძის 7.
+                    </li>
+                    <li>
+                        info@alpha.ge
+                    </li>
+                    <li>
+                        support@alpha.ge
+                    </li>
+                    <li>სამუშაო საათები:</li>
+                    <li>ორშაბათი-პარასკევი</li>
+                    <li>10:00-18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2022</p>
+        </div>
+    </footer>
+    <script src="static/Javascript/script.js"></script>
     
 </body>
 </html>

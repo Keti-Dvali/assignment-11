@@ -13,17 +13,19 @@
 
 body{
     font-family: 'HelveticaNeueMedium';
+    background-color: #F7F7F7;
 }
 
 .container{
     width: 90%;
     max-width: 1223px;
     margin: 0 auto;
-    height: 25vh;
+    height: 15vh;
 
     display: flex;
     justify-content: space-between;
 
+    background-color: #F7F7F7;
 }
 
 a{
@@ -35,9 +37,16 @@ li{
     list-style: none;   
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
+}
+
+.logo-header, .logo-footer{ 
+    width: 170px;
+    height: 54px;
+    background-color: #462f2f;
+    border-radius: 6px;
 }
 
 .nav-links {
@@ -57,6 +66,10 @@ li{
 }
 
 .nav-links ul li:hover{
+    color: #000;
+}
+
+.active{
     color: #000;
 }
 
@@ -87,7 +100,7 @@ li{
     justify-content: space-around;
     width: 68%;
     height: 10vh;
-    margin: 78px auto;
+    margin: 70px auto;
 }
 
 .alfa {
@@ -96,7 +109,8 @@ li{
     align-items: center;
     border: 2px solid rgb(255, 255, 255);
     background-color: rgb(238 73 103);
-    width: 340px;
+    width: 306px;
+    height: 44px;
     border-radius: 6px;
     box-shadow: 0px 1px 0px 5px rgb(238 73 103);
     transition-duration: .3s;
@@ -128,3 +142,699 @@ li{
     color: #434343;
     font-size: 40px;
 }
+
+.chat-icon{
+    display: flex;
+    justify-content: end;
+}
+
+.chat-icon img {
+    margin: 13em 3em 4em 0em;
+    width: 58px;
+    height: 58px;
+
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.chat-icon img:hover{
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+/* second section on home page */
+
+#for-you-section {
+    background-color: #F7F7F7;
+    height: 80vh;
+    width: 100%;
+}
+
+.our-services {
+    background: hsla(349, 83%, 61%, 1);
+    opacity: 46%;
+    height: 70px;
+}
+
+.our-services h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    font-size: 20px;
+}
+
+span {
+    margin-left: 5px;
+    color: #dd042c;
+}
+
+.we-care h4, .share-your-experiences h4 {
+    display: flex;
+    justify-content: center;
+
+    padding: 35px 0 80px 0;
+    color: hsla(0, 0%, 26%, 1);
+    font-size: 16px;
+}
+
+.section1-flex{
+    display: flex;
+}
+
+.arrow{
+    margin-left: 93px;
+    margin-top: 105px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.arrow:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+.insurance {
+    width: 312px;
+    height: 230px;
+    background-color: hsla(0, 0%, 100%, 1);
+    position: relative;
+    margin-left: 37px;
+    box-shadow: 0px 2px 10px hsla(0, 0%, 0%, 0.16);
+    border-radius: 6px;
+}
+
+.insurance :nth-child(1) {
+    width: 110px;
+    height: 110px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px hsla(0, 0%, 0%, 0.16);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -20%;
+    left: 30%;
+}
+
+.insurance :nth-child(2) {
+    width: 80px;
+    height: 80px;
+    background-color: hsla(349, 83%, 61%, 1);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -14%;
+    left: 35%;
+}
+
+.insurance img {
+    width: 59px;
+    height: 59px;
+
+    position: absolute;
+    top: -8%;
+    left: 38%;
+}
+
+.insurance h4 {
+    color: hsla(0, 0%, 26%, 1);
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    font-size: 18px;
+}
+
+.insurance button {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 115px; 
+    height: 31px;
+
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(349, 83%, 61%, 1);
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.insurance button:hover{
+    transition-duration: .5s;
+    box-shadow: 2px 5px 30px 5px hsla(349, 83%, 61%, 1);
+}
+
+#for-your-business-section, .why-us, .our-cutomers{
+    background-color: #F7F7F7;
+    height: 80vh;
+    width: 100%;
+}
+
+/* section three - why you should choose us? */
+
+.why-us-div {
+    position: relative;
+    width: 213px;
+    height: 144px;
+    margin-right: 6em;
+}
+
+
+.why-us-div div {
+    position: absolute;
+    top: 54px;
+    left: 178px;
+    width: 80px;
+    height: 80px;
+    background-color: hsla(349, 83%, 61%, 1);
+    border-radius: 6px;
+}
+
+.why-us-div img {
+    position: absolute;
+    top: 73px;
+    left: 196px;
+}
+
+.why-us-div h4 {
+    color: rgb(66 66 66);
+    font-size: 20px;
+    position: absolute;
+    top: 175px;
+    left: 87px;
+    width: 13em;
+    display: flex;
+    justify-content: center;
+}
+
+/* section four- our cutomers */
+
+.section-four-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customer {
+    width: 392px;
+    height: 267px;
+    background-color: hsla(0, 0%, 100%, 1);
+    position: relative;
+
+    box-shadow: 0px 2px 10px hsla(0, 0%, 0%, 0.16);
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.customer:hover {
+    transition-duration: .5s;
+    box-shadow: 2px 5px 30px 5px rgb(199, 193, 194);
+}
+
+.double-quotes{
+    position: absolute;
+    top: 21px;
+    left: 50%;
+}
+
+.customer p{
+    width: 358px;
+    height: 65px;
+    position: absolute;
+    top: 75px;
+    left: 17px;
+
+    font-size: 16px;
+    text-align: center;
+    color: hsla(0, 0%, 26%, 1); 
+}
+
+.customer-flex{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.person{
+    margin-left: 28px;
+}
+
+.person h4 {
+    padding-bottom: 11px;
+}
+
+.checked {
+    margin: 0px;
+    color: #FFF626;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 399px;
+    background-color: #EE4967;
+}
+
+.footer-flex{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+.footer-flex div{
+    margin-top: 50px;
+}
+
+.first-div h4 {
+    margin-bottom: 20px;
+}
+
+.first-div form {
+    position: relative; 
+    margin-bottom: 107px;
+}
+
+.first-div input {
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    padding: 20px;
+   
+
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.send-icon {
+    position: absolute;
+    top: 10px;
+    left: 176px;
+
+    cursor: pointer;
+}
+
+.icons img {
+    margin: 0px 31px 70px 0px;
+    cursor: pointer;
+}
+
+.second-div {
+    margin-left: 120px;
+}
+
+.second-div ul li, .third-div ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.second-div img {
+    margin-top: 90px;
+    margin-left: -40px;
+}
+.third-div img{
+    margin-top: 90px;
+}
+
+.third-div :nth-child(6){
+    margin-top: 50px;
+}
+
+.copyright{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    color: rgb(255 255 255);
+    font-size: 16px;
+}
+
+/* health insurance page */
+
+.insurance-flex{  
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.health{
+    margin-left: 77px;
+    align-self: center;
+}
+
+.health h2{
+    width: 359px;
+    height: 116px;
+    font-size: 28px;
+}
+
+.health h3 {
+    width: 371px;
+    height: 71px;
+    margin-bottom: 83px;
+    font-size: 20px;
+
+}
+
+.dad-daughter{
+    margin-top: 32px;
+    border: 30px solid rgb(247, 233, 236);
+    border-right: none;
+}
+
+.dad-daughter img{
+    width: 562px;
+    height: 100%;
+}
+
+.insurance-flex button{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #EE4967;
+
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #EE4967;
+    border-radius: 50%;
+}
+
+.two-circle{ 
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    border: 1px solid #EE4967;
+    border-radius: 50%;
+}
+
+.circle-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.choice {
+    background: hsla(349, 83%, 61%, 1);
+    opacity: 46%;
+    height: 70px;
+    margin-top: 87px;
+    margin-bottom: 49px;
+}
+
+.choice h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    font-size: 20px;
+}
+
+.first-section-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 46px;
+}
+
+.type-of-insurance {
+    width: 392px;
+    height: 595px;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 2px 10px hsla(0, 0%, 0%, 0.16);
+    border-radius: 6px;
+}
+
+.type-of-insurance img {
+    width: 325px;
+    height: 232px;
+    margin: 32px 0px 47px 36px;
+}
+
+.type-of-insurance h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #EE4967;
+    font-size: 18px;
+}
+
+.type-of-insurance p {
+    width: 330px;
+    height: 107px;
+    margin: 0 auto;
+
+    color: #434343;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.type-of-insurance button{
+    width: 149px; 
+    height: 40px;
+    margin: 40px 0px 0px 122px;
+
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    background-color: #EE4967;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+button:hover{
+    transition-duration: .5s;
+    box-shadow: 2px 5px 30px 5px hsla(349, 83%, 61%, 1);
+}
+
+/* second-section-insurance page */
+
+.second-section-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 131px;
+}
+
+.program{
+    display: grid;
+    justify-items: center;
+    width: 370px;
+    height: 415px;
+    color:rgb(255, 255, 255);
+    background-color: #EE4967;
+    
+    box-shadow: 0px 2px 10px hsla(0, 0%, 0%, 0.16);
+    border-radius: 6px;
+}
+
+.program h3{
+    margin-top: 13px;
+    font-size: 16px;
+}
+
+.white-background{
+    display: flex;
+    justify-content: space-around;
+    width: 310px;
+    height: 240px;
+    background-color: #ffffff;
+
+    border-radius: 6px;
+}
+
+.white-background ul {
+    color: #434343;
+    font-size: 13px;
+}
+
+.white-background ul li{
+    margin-top: 20px;
+}
+
+.list-flex{
+    width: 306px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-yourself{
+    display: grid;
+    justify-items: center;
+}
+
+.create-yourself h2 {
+    color: #434343;
+    font-size: 20px;
+    margin-bottom: 83px;
+}
+
+.create-yourself button {
+    width: 179px;
+    height: 40px;
+    margin-bottom: 68px;
+
+    border: none;
+    border-radius: 6px;
+    background-color: #EE4967;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* contact page */
+
+.contact-container {
+    max-width: 1223px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-title {
+    margin-top: 90px;
+    margin-bottom: 81px;
+}
+
+.contact-title h1, .contact-title p {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-title h1 {
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.contact-title p{
+    font-size: 16px;
+    color: #434343;
+}
+
+.contact {
+    height: 613px;
+    margin-bottom: 111px;
+
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.contact-flex{
+    /* height: 613px; */
+    display: flex;
+    /* margin-bottom: 111px;
+
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px #00000029; */
+}
+
+.contact-list-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+
+}
+
+.contact-list-flex ul li img{
+    margin-bottom: 56px;
+}
+
+.list-2 li {
+    margin-bottom: 73px;
+}
+
+.contact-info {
+    width: 436px;
+    height: 587px;
+    margin: 13px;
+
+    color:#FFFFFF;
+    background-color: #EE4967;
+    border-radius: 6px;
+}
+
+.contact-info h2, .contact-info p, .contact-info div {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.contact-form{
+    margin-top: 42px;
+    margin-left: 45px;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #434343;
+}
+
+.contact-form label {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.email, .tel{
+    margin-top: 103px;
+}
+
+.contact-form input {
+    width: 300px;
+    height: 25px;
+
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #F4A2B1;
+}
+
+.contact-form input[value]{
+    padding-bottom: 10px;
+    color: #434343;
+    font-size: 16px;
+}
+
+.text-us textarea{
+    width: 646px;
+    height: 146px;
+    padding: 10px;
+    margin: 90px 0 30px 45px;
+
+    outline: none;
+    color: rgb(67 67 67);
+    font-size: 14px;
+    border: 1px solid rgb(244 162 177);
+    border-radius: 6px;
+    opacity: 0.6;
+}
+
+.submit{
+    float: right;
+    width: 179px;
+    height: 40px;
+
+    color:hsla(0, 0%, 100%, 1);
+    border: none;
+    border-radius: 6px;
+    background-color: #EE4967;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
